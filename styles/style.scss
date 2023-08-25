@@ -1,0 +1,55 @@
+ $textcolor:black;
+ $primarycolor:blue;
+ 
+$fontstyle:arial;
+body{
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container{
+    background-color: beige;
+   
+    border:2px solid;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 25px;
+    color:$textcolor;
+}
+
+.nav{
+    border-radius:  5px 5px 5px 5px black;
+}
+
+
+
+
+
+
+
+
+/*contact page coading*/
+.form::placeholder{
+    border: black;
+
+}
+
+
+
+/*about page coding*/
+.about{
+    text-align: center;
+    margin-top: 20px;
+}
+.video{
+    animation:2s fade-in;
+}
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }

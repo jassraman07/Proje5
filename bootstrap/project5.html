@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P4</title>
+    <link href="./styles/style.scss" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg py-3 bg-light navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">Project4</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                
+               <ul class="navbar-nav">
+                    <li class="navbar-item px-2">
+                        <a href="../home.html"class="navbar-links">Home   </a>
+                    </li>
+                    <li class="navbar-item px-2">
+                        <a href="../about.html"class="navbar-links"> About  </a>
+                    </li>
+                    <li class="navbar-item px-2">
+                        <a href="../contact.html"class="navbar-links"> Contact  </a></li>
+                    <li class="navbaritem px-2">
+                        <a href="../project.html"class="navbar-links"> projects  </a></li>
+                </ul>
+            </div></div>
+            <!-- <button class="btn btn-dark btn-lg m-3   data-bs-toggle=modal data-bs-target=#Log In"> Log In</button> -->
+<!-- add model here -->
+
+<button class="btn btn-outline-primary mx-3" type="button">Log In</button> 
+<!-- modify subscribe button to open modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Sign Up</button>
+<div class="modal" tabindex="-1" id="exampleModal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Sign up for New Users</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<div class="form-floating mb-3">
+  <input
+         type="text"
+         class="form-control"
+         id="floatingInput"
+         placeholder="Full name"
+         >
+  <label for="floatingInput">Full name</label>
+</div>
+<div class="form-floating mb-3">
+  <input
+         type="email"
+         class="form-control"
+         id="floatingInput"
+         placeholder="name@example.com"
+         >
+  <label for="floatingInput">Email address</label></div>
+  <div class="form-floating mb-3 mb-3 mt-3">
+    <input
+         type=" confirm email"
+         class="form-control"
+         id="floatingInput"
+         placeholder="name@example.com"
+         >
+  <label for="floatingInput">confirm email</label>
+  </div>
+  <div class="form-floating mb-3 mt-3">
+    <input
+           type="password"
+           class="form-control"
+           id="floatingInput"
+           placeholder="XXXXXXXX"
+           >
+    <label for="floatingInput">Password</label></div>
+  <button type="submit" class="btn btn-primary mt-2">Sign Up</button>
+</div></div></div></div>
+    </nav>
+
+<!-- about me -->
+<section class="bg-dark text-light p-5 p-lg-0 pt-lg-0 text-center text-sm-start">
+    <h1 class="heading text-center">About me......Why i am here today</h1>
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div><h2>Become a <span class="text-warning">web developer</span></h2>
+                <p>
+                Hi!Ramandeep kaur ,I am living in Brampton the most popular city of canada.
+                I came here in 2016 as a student and i am graduate from the fanshawe college London ,ON as a software Tester.
+                When i done my bechelor degre in computer science from that time i was curious to learn about coding specially in the field of software development
+                .Thanks to correlation one which gave me chance to accomplish my dream and learn all about the software devlopment.
+                I am really passionate about the web development and tried to 
+                learn new things from other rsources as much as i can so that i 
+                can hone my skils.I did't miss any chance to explore new langugaes
+                 ,software and other skills which can help to be more creative as 
+                 a web devloper .Please have a look some of my aspiring web developer 
+                 projects and also have my own portfolio. Feel free to contact me
+                </p> <button class="btn btn-primary btn-lg mb-3"> click here</button>
+                 
+           </div>
+            <img  class="img-fluid w-50 d-done d-sm-block" src="ramanimage.jpg "  alt="image">
+        </div> 
+    </div>
+</section>
+
+
+<!-- three boxex with bootstrap grid -->
+<section class="p-5">
+    <h1>About my skills......</h1>
+</section>
+<div class="container">
+    <div class="row text-center g-4">
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-filetype-html"></i></div>
+                    <img class="card-image" src="" alt="HTMl5 image ">
+                    <h3 class="card-title">HTML</h3>
+                    <p>Html is the standard markup languages for the web pages.This is the esiest language . </p>
+                    <a href="https://www.w3schools.com/html/default.asp" class="btn btn-primary ">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                    <i class="bi-bi-CSS"></i></div>
+                    <img class="card-image" src="image 2" alt="CSS image ">
+                    <h3 class="card-title">CSS</h3>
+                    <p>Css is language which is used to style the HTML code and make it more attracive . </p>
+                    <a href="https://www.w3schools.com/css/default.asp" class="btn btn-primary ">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                    <i class="bi bi Bootsrap"></i></div>
+                    <img class="card-image" src="image 3" alt="Bootstrap image ">
+                    <h3 class="card-title">Bootstrap</h3>
+                    <p>Bootstrap makes coding more eaier with the in built functions and reduce the time .</p>
+                    <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" class="btn btn-primary ">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                    <i class="bi bi javascript"></i></div>
+                    <img class="card-image" src="image 4" alt="javascript image ">
+                    <h3 class="card-title">javascript</h3>
+                    <p>Javacript is scripted language which help to make wb pages more attrive an dcontroolable</p>
+                    <a href="https://www.w3schools.com/js/default.asp" class="btn btn-primary ">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                    <i class="bi bi Node.js"></i></div>
+                    <img class="card-image" src="img/fundamental.svg" alt="Node.js" image ">
+                    <h3 class="card-title">Node.js"</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quia.</p>
+                    
+                    <a href="#" class="btn btn-primary btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+</section>
+
+<section id="funda" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <h2>What services i offer as a aspiring web developer</h2>
+            <div class=" photo col-md d-grid">
+                <img src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60" class="img-fluid" alt="own image">
+
+            </div>
+            <div class="  col-md d-grid">
+                
+                <p>I am Web Designer and i can design responsive websites<br>
+                The various language i used in the design are HTML,CSS,Bootstrap and javascript</p> 
+                <a href="#" type="button" class="btn btn-primary btn-sm ">Read More</a>
+
+           
+                <!--  -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="bg-primary text-light p-5">
+    <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Sign Up Here to see my projects</h3>
+
+        <div class="input-group mb-3 signup">
+            <input type="text" class="form-control" 
+             placeholder="Enter email" 
+             >
+            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+          </div>
+    </div></div>
+</section>
+<!-- fooetr -->
+<footer class="p-2 bg-primary mt-2 mb-2 text-light text-center  ">
+            <h2 class="text-align-center text-black">Home  | About |  career | contact |</h2>
+        <p class="lead">copyright &copy;2021 Project4 RamanDandiwal</p>
+        <div class="row g-4">
+            <!-- <div class="col-md-6 col-lg-3 align-items-center">
+                <div class="card-body text-center">
+                     <img src="https://randomuser.me/api/portraits/women/1" alt=""> -->
+                 
+            
+        </div>
+    </div>
+</scetion>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
